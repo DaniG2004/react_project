@@ -1,20 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+body{
+margin:0;
+padding:0;
+background-image:url(./Pictures/fa.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+height:100vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .button-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: rgb(0, 0, 0);
+  }
+  .navbar {
+    position: fixed; /* Задържаме навигационния бар фиксиран */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ширината да бъде на цял екран */
+    background-color: #000000; /* Цвят на фона на бара */
+    padding: 10px 20px; /* Добавяме малко отстояние */
+    display: flex;
+    justify-content: space-between; /* Равномерно разпределяне на линковете и бутона */
+    align-items: center; /* Центрираме съдържанието по вертикала */
+    z-index: 1000; /* Подреждаме навигационния бар над останалото съдържание */
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+  text-decoration: none;
+  color: #454343;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s; /* плавен преход за background и color */
 }
 
-.card {
-  padding: 2em;
+/* Когато мишката е над линковете в Navbar */
+nav a:hover {
+  background-color: #756a6a9f;
+  color: #0ea525; /* Променяме цвета на текста */
 }
-
-.read-the-docs {
-  color: #888;
-}
+  
+  button {
+    background-color: #0fb90c; /* Цвят на бутона */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    cursor:pointer;
+    font-size:16px;
+    margin-left:20px;
+    border-radius:5px;
+  }
+  
+  button:hover {
+    background-color: #0b6d0d; /* Променяме цвета при hover */
+  }
+  
+  /* Стил за контейнера на приложението, за да не се припокриват елементи с navbar */
+  .container {
+    margin-top: 60px; /* Оставяме място за фиксирания navbar */
+  }

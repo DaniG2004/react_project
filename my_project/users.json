@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "username": "user123",
+      "password": "password123"
+    },
+    {
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "2c09",
+      "username": "Dani",
+      "password": "123456789"
+    },
+    {
+      "id": "df16",
+      "username": "Dani123",
+      "password": "123"
+    },
+    {
+      "id": "16a5",
+      "username": "Danito1",
+      "password": "123"
+    },
+    {
+      "id": "949b",
+      "username": "Viksi23",
+      "password": "234"
+    },
+    {
+      "id": "9a6a",
+      "username": "Krasi12",
+      "password": "123"
+    },
+    {
+      "id": "2782",
+      "username": "Krasimir345",
+      "password": "1234"
+    },
+    {
+      "id": "ef89",
+      "username": "Bobi89",
+      "password": "234"
+    },
+    {
+      "id": "9b3e",
+      "username": "Krasi123",
+      "password": "345"
+    },
+    {
+      "id": "f573",
+      "username": "Krasimir123",
+      "password": "123"
+    },
+    {
+      "id": "c767",
+      "username": "Petyr345",
+      "password": "345"
+    }
+  ]
+}
