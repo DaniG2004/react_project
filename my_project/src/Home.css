@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%; /* Увери се, че html и body заемат 100% от височината на екрана */
+  }
+.home-background {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* прозрачен тъмен фон */
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+  }
+  
