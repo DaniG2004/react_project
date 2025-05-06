@@ -4,7 +4,7 @@ import './History.css';
 function History() {
   return (
     <div className="history-container">
-      <h2>Explore Fascinating Historical Facts</h2>
+      <h1>Explore Fascinating Historical Facts</h1>
       <p>History is full of incredible events, people, and moments that changed the world.</p>
 
       <div className="history-facts">
@@ -58,6 +58,32 @@ function History() {
           <h3>Augustus Caesar</h3>
           <p>Augustus Caesar was the wealthiest man to ever live in history. Nephew and heir of Julius Caesar, Emperor Augustus had an estimated net worth of $.46 trillion when counting for inflation.</p>
         </div>
+
+        <div className="history-card">
+        <img src="/Pictures/laugh.jpeg" alt="Ferrets" className="history-image" />
+          <h3>Can't stop laughing</h3>
+          <p>In 1962, a mysterious epidemic of laughter broke out in a girls’ school in Tanganyika (now Tanzania). The laughter quickly spread to other schools and eventually to the surrounding villages, affecting thousands of people. The epidemic lasted for several months and was so severe that many schools were forced to close.</p>
+        </div>
+
+        <div className="history-card">
+        <img src="/Pictures/tsunami.jpeg" alt="Ferrets" className="history-image" />
+          <h3>Tallest tsunami</h3>
+          <p>In July 1958 the tallest tsunami ever recorded crashed through the quiet fjord of Lituya Bay in Alaska. At 1,720 feet, the megatsunami was higher than the Empire State Building.</p>
+        </div>
+
+        <div className="history-card">
+        <img src="/Pictures/war.jpeg" alt="Ferrets" className="history-image" />
+          <h3>Shortest war</h3>
+          <p>The shortest war in history is the Anglo-Zanzibar war, on 27 August 1896. It started at 9.02 am and ended at 9.40am. 1 British soldier was injured. It followed the refusal of the Zanzibari Sultan to step down after the British issued an ultimatum. British warships then fired on his position and the Sultan surrendered.</p>
+        </div>
+
+        <div className="history-card">
+        <img src="/Pictures/painting.jpeg" alt="Ferrets" className="history-image" />
+          <h3>The first known artworks</h3>
+          <p> The first known artworks date back roughly 100,000 years ago. It is believed to have begun with the Homo Sapiens during the Upper Paleolithic era. The oldest known artworks were found in a cave in what is now France.</p>
+        </div>
+
+
       </div>
     </div>
   );

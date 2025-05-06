@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./Na"; // Импортираме Navbar
-import History from "./History"; // Импортираме History
-import Animals from "./Animals"; // Импортираме Animals
-import Humans from "./Humans"; // Импортираме Humans
+import Navbar from "./Na";
+import History from "./History";
+import Animals from "./Animals";
+import Humans from "./Humans";
 import Home from "./Home";
 import Plants from "./Plants";
-import './App.css'; // Основни стилове
+import './App.css';
 
 function App() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState(''); // Поле за потвърждение на паролата
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Проверка за логване
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [error, setError] = useState('');
-  const [isSignUp, setIsSignUp] = useState(false); // Стойност за превключване между регистрация и вход
+  const [isSignUp, setIsSignUp] = useState(false);
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -33,14 +33,12 @@ function App() {
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    
-    // Проверка дали паролите съвпадат
+
     if (password !== confirmPassword) {
       setError('Passwords do not match!');
       return;
     }
 
-    // Регистрация на нов потребител
     const response = await fetch('http://localhost:3005/users');
     const users = await response.json();
 
@@ -64,7 +62,7 @@ function App() {
   };
 
   const handleLogout = () => {
-    setIsLoggedIn(false); // Излизаме от системата
+    setIsLoggedIn(false);
     setUsername('');
     setPassword('');
     setConfirmPassword('');
@@ -73,26 +71,24 @@ function App() {
   return (
     <Router>
       <div className="container">
-        {isLoggedIn && <Navbar onLogout={handleLogout} />} {/* Показваме Navbar само след логин */}
+        {isLoggedIn && <Navbar onLogout={handleLogout} />}
         
         <h1>Welcome to the Facts Site!</h1>
 
         {isLoggedIn ? (
           <div>
             <h2>Welcome, {username}!</h2>
-            {/* Показваме компонентите само след като потребителят е логнат */}
             <Routes>
-              <Route path='/home' element={<Home/>}/>
+              <Route path="/home" element={<Home />} />
               <Route path="/history" element={<History />} />
               <Route path="/animals" element={<Animals />} />
               <Route path="/humans" element={<Humans />} />
-              <Route path="/plants" element={<Plants/>}/>
+              <Route path="/plants" element={<Plants />} />
             </Routes>
           </div>
         ) : (
-          <div>
+          <div className="login-wrapper">
             <h3>{isSignUp ? 'Create an account' : 'Sign In to your account'}</h3>
-
             <form onSubmit={isSignUp ? handleSignUp : handleLogin}>
               <div>
                 <label htmlFor="username">Username: </label>
@@ -133,7 +129,7 @@ function App() {
                 <button type="submit">{isSignUp ? 'Sign Up' : 'Sign In'}</button>
                 <button
                   type="button"
-                  onClick={() => setIsSignUp(!isSignUp)} // Превключване между създаване на акаунт и вход
+                  onClick={() => setIsSignUp(!isSignUp)}
                 >
                   {isSignUp ? 'Already have an account? Sign In' : 'Don\'t have an account? Sign Up'}
                 </button>

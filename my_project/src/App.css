@@ -102,5 +102,55 @@ nav a:hover {
   .container {
     margin-top: 60px; /* Оставяме място за фиксирания navbar */
   }
-  
+  .login-wrapper {
+  max-width: 400px;
+  margin: 120px auto;
+  padding: 40px;
+  background-color: rgba(145, 132, 132, 0.468);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+.login-wrapper h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #eee2e2;
+}
+
+.login-wrapper input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-wrapper .button-row {
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.login-wrapper button {
+  width: 100%;
+  background-color: #0fb90c;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.login-wrapper button:hover {
+  background-color: #0a8e0a;
+}
+.login-wrapper .button-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center; 
+}
 
