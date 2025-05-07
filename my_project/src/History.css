@@ -1,13 +1,17 @@
 .history-container {
   padding: 30px;
-  background-color:  #71454586;
+  background: linear-gradient(135deg, rgba(113, 69, 69, 0.8), rgba(175, 97, 97, 0.8)); /* Градиентен фон */
   min-height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .history-container h1 {
   font-size: 2.5rem;
-  color: #c01616;
+  color: #fff; /* Бял цвят за по-добър контраст с фона */
+  margin-bottom: 30px;
 }
 
 .history-facts {
@@ -24,12 +28,14 @@
   border-radius: 10px;
   padding: 20px;
   width: 250px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Лека сенка около картата */
 }
-
 .history-card:hover {
   transform: scale(1.05);
   background-color: #dc151586;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* По-силна сенка при hover */
 }
 .history-image {
   width: 100%;
@@ -37,6 +43,11 @@
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.history-image:active {
+  transform: scale(1.2); /* Мащабиране на изображението при натискане */
 }
 
 .history-container {

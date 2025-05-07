@@ -25,6 +25,7 @@
     padding: 20px;
     width: 250px;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    overflow:hidden;
   }
   
   .plant-card:hover {
@@ -37,9 +38,15 @@
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
+    transition: transform 0.3s ease;
   }
-
+  .plant-card:hover .plant-image {
+    transform: scale(1.1); /* Увеличаване на изображението */
+  }
   .plants-container {
     border: 2px solid #489d4a /* just for debugging */
   }
+
+
+
   
