@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": " Headaches are caused by a chemical reaction",
+      "description": "Chemical activity in your brain, the nerves or blood vessels surrounding your skull, or the muscles of your head and neck (or some combination of these factors) can play a role in primary headaches. Serotonin is a chemical necessary for communication between nerve cells. When serotonin or estrogen levels change, the result for some is a headache or migraine. Serotonin levels may affect both sexes, while fluctuating estrogen levels affect women only.",
+      "image": "/Pictures/hd.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The brain can’t feel pain",
+      "description": "There are no pain receptors in the brain itself. But the meninges (coverings around the brain), periosteum (coverings on the bones), and the scalp all have pain receptors. Surgery can be done on the brain and technically the brain does not feel that pain.",
+      "image": "/Pictures/brain.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Cholesterol is key to learning and memory",
+      "description": "The brain has a higher cholesterol content than any other organ.  In fact, about 25% of the body’s cholesterol resides within the brain. The brain is highly dependent on cholesterol, but its cholesterol metabolism is unique. Because the blood-brain barrier prevents brain cells from taking up cholesterol from the blood, the brain must produce its own cholesterol. The brain’s cholesterol is much more stable than the cholesterol in other organs, but when it breaks down, it is recycled into new cholesterol right in the brain.",
+      "image": "/Pictures/memory.jpg"
+    },
+
+    {
+      "id": 4,
+      "title": "An adult brain weighs about 3 pounds",
+      "description": "The cerebrum makes up 85% of the brain’s weight, and the brain makes up about 2% of a human’s body weight. The texture of the brain is like a firm jelly. The heaviest normal human brain weighed 4.43 pounds. It belonged to the Russian Writer Ivan Turgenev. And the smallest brain, just 2.41 pounds, belonged to a woman.",
+      "image": "/Pictures/mozuk.jpg"
+    },
+    
+    {
+      "id": 5,
+      "title": " Dreams are believed to be a combination of imagination, physiological factors, and neurological factors",
+      "description": "The limbic system in the mid-brain deals with emotions in both waking and dreaming and includes the amygdala, which is mostly associated with fear and is especially active during dreams. Dreams are proof that your brain is working even when you are sleeping. The average human has about 4-7 dreams per night.",
+      "image": "/Pictures/dreams.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "Your brain uses 20% of the oxygen and blood in your body",
+      "description": "Your brain needs a constant supply of oxygen. As little as five minutes without oxygen can cause some brain cells to die, leading to severe brain damage. Also, the harder you think, the more oxygen and fuel your brain will use from your blood – up to 50%. Every minute, 750-1,000 milliliters of blood flows through the brain. This is enough to fill a bottle of wine or liter bottle of soda.",
+      "image": "/Pictures/oxygen.jpg"
+    }
+    
+  ]

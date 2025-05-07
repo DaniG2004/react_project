@@ -1,45 +1,55 @@
 .animals-container {
-    padding: 30px;
-    background-color: #2f382f7b;
-    min-height: 100vh;
-    text-align: center;
-  }
-  
-  .animals-container h2 {
-    font-size: 2.5rem;
-    color: #2e7d32;
-  }
-  
-  .animals-facts {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
-    flex-wrap: wrap;
-  }
-  
-  .animals-card {
-    background-color: #aee0b2;
-    border: 1px solid #489d4a;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  .animals-card:hover {
-    transform: scale(1.05);
-    background-color: #659133;
-  }
-  .animals-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
+  padding: 20px;
+  color: #ffffff;
+  background-image: url('./Pictures/ele.jpg'); /* ако искаш фон */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  text-align: center;
+}
 
-  .animals-container {
-    border: 2px solid #489d4a /* just for debugging */
-  }
-  
+.animals-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.animals-card {
+  background-color: rgba(69, 40, 40, 0.395);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.3s ease;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.animals-card:hover {
+  transform: scale(1.05);
+}
+
+.animals-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fcfcfc;
+}
