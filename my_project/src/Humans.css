@@ -1,7 +1,7 @@
 .humans-container {
     padding: 20px;
     color: #ffffff;
-    background-image: url('./Pictures/hum.jpg'); /* ако искаш фон */
+    background-image: url('./Pictures/hum.jpg'); 
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -43,8 +43,8 @@
   }
   
   .humans-card:hover .humans-image {
-    transform: translateY(0); /* Плъзгане надолу на изображението */
-    opacity: 1; /* Става напълно видимо при hover */
+    transform: translateY(0); 
+    opacity: 1; 
   }
   
   h1 {

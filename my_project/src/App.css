@@ -52,16 +52,16 @@ html, body {
     color: rgb(0, 0, 0);
   }
   .navbar {
-    position: fixed; /* Задържаме навигационния бар фиксиран */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100%; /* Ширината да бъде на цял екран */
-    background-color: #000000; /* Цвят на фона на бара */
-    padding: 10px 20px; /* Добавяме малко отстояние */
+    width: 100%; 
+    background-color: #000000; 
+    padding: 10px 20px; 
     display: flex;
-    justify-content: space-between; /* Равномерно разпределяне на линковете и бутона */
-    align-items: center; /* Центрираме съдържанието по вертикала */
-    z-index: 1000; /* Подреждаме навигационния бар над останалото съдържание */
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 1000; 
   }
   
   .navbar-links {
@@ -74,12 +74,12 @@ html, body {
   color: #454343;
   padding: 10px 20px;
   font-size: 18px;
-  transition: background-color 0.3s, color 0.3s; /* плавен преход за background и color */
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 /* Когато мишката е над линковете в Navbar */
 nav a:hover {
-  background-color: #756a6a9f;
+  background-color: #756a6a3f;
   color: #0ea525; /* Променяме цвета на текста */
 }
   

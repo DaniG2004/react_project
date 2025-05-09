@@ -1,12 +1,14 @@
 .history-container {
   padding: 30px;
-  background: linear-gradient(135deg, rgba(113, 69, 69, 0.8), rgba(175, 97, 97, 0.8)); /* Градиентен фон */
+  background: linear-gradient(135deg, rgba(113, 69, 69, 0.8), rgba(189, 115, 115, 0.221)); 
   min-height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 .history-container h1 {
   font-size: 2.5rem;
@@ -52,4 +54,22 @@
 
 .history-container {
   border: 2px solid #ba1313 /* just for debugging */
+}
+.history-image {
+  border-radius: 12px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.1); /* subtle background glow */
+}
+.history-container h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* subtle shadow */
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.history-card p {
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }

@@ -11,7 +11,8 @@ function Animals(){
   <div className="animals-card">
     <img src="./Pictures/dragon.jpeg" alt="Komodo dragon" className="animals-image"/>
    <div className="animals-text"> <h3>Komodo dragons</h3></div>
-    <p> Komodo dragons can have so-called virgin births. As well as mating with males the species is parthenogenetic: in other words, the females can lay fertile eggs without any input from males. This will only reproduce identical young, however. For the species to continue to adapt, it needs to mate.</p>    
+   
+    <p> Komodo dragons can have so-called virgin births. As well as mating with males the species is parthenogenetic: in other words, the females can lay fertile eggs without any input from males. This will only reproduce identical young, however. </p>    
   </div>
 
 <div className="animals-facts">
@@ -61,7 +62,32 @@ function Animals(){
   </div>
 </div>
 
+<div className="animals-facts">
+  <div className="animals-card">
+    <img src="./Pictures/dolphin.jpg" alt="Dolphins" className="animals-image"></img>
+    <div className="animals-text"><h3>Dolphins</h3></div>
+    <p> Humans aren't the only animal to enjoy 'highs'. Dolphins use toxic pufferfish to ‘get high’.</p>
+  </div>
+</div>
 
+
+<div className="animals-facts">
+  <div className="animals-card">
+    <img src="./Pictures/cow.jpg" alt="Cow" className="animals-image"></img>
+    <div className="animals-text"><h3>Cow</h3></div>
+    <br></br>
+    <p>A cow has four stomachs, right? That's what we learn at school, isn't it? Wrong! Rather than having four stomachs, a cow's one stomach has four separate sections – the rumen, the reticulum, the omasum and the abomasum.</p>
+  </div>
+</div>
+
+
+<div className="animals-facts">
+  <div className="animals-card">
+    <img src="./Pictures/red.jpeg" alt="Red Panda" className="animals-image"></img>
+    <div className="animals-text"><h3></h3></div>
+    <p>Red pandas feed mainly on bamboo using their opposable thumb. While their thumb-like appendages can be used in the same way as that of giant pandas, it is believed that the red panda’s opposable thumbs may have evolved as an adaptation for grasping branches in trees rather than for stripping bamboo. </p>
+  </div>
+</div>
 </div>
 
 

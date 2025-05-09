@@ -1,7 +1,7 @@
 .animals-container {
   padding: 20px;
   color: #ffffff;
-  background-image: url('./Pictures/ele.jpg'); /* ако искаш фон */
+  background-image: url('./Pictures/ele.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -40,7 +40,7 @@
   transition: transform 0.3s ease-in-out;
 }
 .animals-card:hover .animals-image {
-  transform: scale(1.05) rotate(5deg); /* Леко завъртане на картинката при hover */
+  transform: scale(1.05) rotate(5deg); 
 }
 h1 {
   font-size: 2.5rem;
@@ -66,5 +66,34 @@ h3 {
   z-index: 2;
   text-align: center;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Добавяне на сенки към текста за по-добра четимост */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #f8cb44;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #ffeead;
+  text-transform: uppercase;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  animation: slideIn 1s ease forwards;
 }

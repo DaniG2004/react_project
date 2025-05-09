@@ -2,11 +2,13 @@
   "users": [
     {
       "username": "user123",
-      "password": "password123"
+      "password": "password123",
+      "id": "99ef"
     },
     {
       "username": "admin",
-      "password": "admin123"
+      "password": "admin123",
+      "id": "1cbd"
     },
     {
       "id": "2c09",
@@ -57,6 +59,16 @@
       "id": "c767",
       "username": "Petyr345",
       "password": "345"
+    },
+    {
+      "id": "19f7",
+      "username": "Borislava156",
+      "password": "789"
+    },
+    {
+      "id": "4c32",
+      "username": "Petur89",
+      "password": "Kra234"
     }
   ]
 }

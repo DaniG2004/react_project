@@ -47,6 +47,34 @@
     border: 2px solid #489d4a /* just for debugging */
   }
 
-
-
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
+  .plant-card {
+    animation: fadeInUp 1.0s ease forwards;
+  }
+  .plants-container h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    color: #217a15;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .plants-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #f8cb44;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* subtle shadow */
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+ 
