@@ -84,7 +84,8 @@ function Animals(){
 <div className="animals-facts">
   <div className="animals-card">
     <img src="./Pictures/red.jpeg" alt="Red Panda" className="animals-image"></img>
-    <div className="animals-text"><h3></h3></div>
+    <div className="animals-text"><h3>Red panda</h3></div>
+    <br></br>
     <p>Red pandas feed mainly on bamboo using their opposable thumb. While their thumb-like appendages can be used in the same way as that of giant pandas, it is believed that the red panda’s opposable thumbs may have evolved as an adaptation for grasping branches in trees rather than for stripping bamboo. </p>
   </div>
 </div>

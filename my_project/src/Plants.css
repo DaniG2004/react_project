@@ -41,10 +41,10 @@
     transition: transform 0.3s ease;
   }
   .plant-card:hover .plant-image {
-    transform: scale(1.1); /* Увеличаване на изображението */
+    transform: scale(1.1); 
   }
   .plants-container {
-    border: 2px solid #489d4a /* just for debugging */
+    border: 2px solid #489d4a 
   }
 
   @keyframes fadeInUp {

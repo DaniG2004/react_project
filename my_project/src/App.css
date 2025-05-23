@@ -9,10 +9,12 @@ html, body {
 
 body {
   background-image: url(./Pictures/fa.jpeg);
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 html, body {
   overflow-x: hidden;
   overflow-y: auto;
@@ -69,22 +71,25 @@ html, body {
     gap: 20px;
   }
   
-  nav a {
-  text-decoration: none;
-  color: #454343;
-  padding: 10px 20px;
-  font-size: 18px;
-  transition: background-color 0.3s, color 0.3s; 
-}
+  .navbar-links a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    font-size:16px;
+    border-radius: 30px;
+    background: linear-gradient(to right,#632cab,#75a6e1);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
 
-/* Когато мишката е над линковете в Navbar */
-nav a:hover {
-  background-color: #756a6a3f;
-  color: #0ea525; /* Променяме цвета на текста */
-}
-  
+  .navbar-links a:hover{
+background: linear-gradient(to right, #325279, #1ee5ff); /* обръщаме градиента */
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+
+  }
   button {
-    background-color: #0fb90c; /* Цвят на бутона */
+    background-color: #0fb90c; 
     color: white;
     border: none;
     padding: 12px 30px;
@@ -95,12 +100,12 @@ nav a:hover {
   }
   
   button:hover {
-    background-color: #0b6d0d; /* Променяме цвета при hover */
+    background-color: #0b6d0d;
   }
   
-  /* Стил за контейнера на приложението, за да не се припокриват елементи с navbar */
+ 
   .container {
-    margin-top: 60px; /* Оставяме място за фиксирания navbar */
+    margin-top: 60px; 
   }
   .login-wrapper {
   max-width: 400px;
