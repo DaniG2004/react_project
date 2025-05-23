@@ -1,11 +1,24 @@
 .animals-container {
+  position: relative;
   padding: 20px;
   color: #ffffff;
+  min-height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+.animals-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url('./Pictures/ele.jpg');
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
-  text-align: center;
+  opacity: 0.4;
+  z-index: -1; 
 }
 
 .animals-facts {
